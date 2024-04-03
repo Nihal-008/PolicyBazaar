@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T11:34:38 IST" name="PolicyBazaar Generic Testsuite" finished-at="2024-03-27T11:34:38 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- PolicyBazaar Generic Testsuite -->
+  <suite started-at="2024-03-27T11:28:23 IST" name="PolicyBazaar Chrome Testsuite" finished-at="2024-03-27T11:31:44 IST" duration-ms="201239">
+    <groups>
+      <group name="regression">
+        <method signature="CarInsuranceTests.navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@cecf639]" name="navigateToCarInsurance" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="HealthInsuranceTests.validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" name="validateHeathInsuranceMenu" class="policybazaar.tests.HealthInsuranceTests"/>
+        <method signature="TravelInsuranceTests.navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="navigateToTravelInsurance" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="CarInsuranceTests.searchWithValidCarNumber()[pri:4, instance:policybazaar.tests.CarInsuranceTests@cecf639]" name="searchWithValidCarNumber" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateCountrySelection()[pri:4, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="validateCountrySelection" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateCountrySearch()[pri:6, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="validateCountrySearch" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="CarInsuranceTests.searchWithValidDetails()[pri:9, instance:policybazaar.tests.CarInsuranceTests@cecf639]" name="searchWithValidDetails" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithValidDates()[pri:9, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="searchWithValidDates" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateTravellerNumberSelection()[pri:10, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="validateTravellerNumberSelection" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithTravellersAge()[pri:12, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="searchWithTravellersAge" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithMedicalConditionDetail()[pri:14, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="searchWithMedicalConditionDetail" class="policybazaar.tests.TravelInsuranceTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CarInsuranceTests.navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@cecf639]" name="navigateToCarInsurance" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="HealthInsuranceTests.validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" name="validateHeathInsuranceMenu" class="policybazaar.tests.HealthInsuranceTests"/>
+        <method signature="TravelInsuranceTests.navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" name="navigateToTravelInsurance" class="policybazaar.tests.TravelInsuranceTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-27T11:28:23 IST" name="Chrome Test" finished-at="2024-03-27T11:31:44 IST" duration-ms="201239">
+      <class name="policybazaar.tests.HealthInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" started-at="2024-03-27T11:31:00 IST" name="createDriver" finished-at="2024-03-27T11:31:05 IST" duration-ms="5227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initHealthInsurancePage()[pri:0, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" started-at="2024-03-27T11:31:05 IST" name="initHealthInsurancePage" finished-at="2024-03-27T11:31:05 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHealthInsurancePage -->
+        <test-method signature="validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" started-at="2024-03-27T11:31:05 IST" name="validateHeathInsuranceMenu" finished-at="2024-03-27T11:31:41 IST" duration-ms="36092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeathInsuranceMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.HealthInsuranceTests@1caa0244]" started-at="2024-03-27T11:31:41 IST" name="teardown" finished-at="2024-03-27T11:31:44 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.HealthInsuranceTests -->
+      <class name="policybazaar.tests.TravelInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:23 IST" name="createDriver" finished-at="2024-03-27T11:28:31 IST" duration-ms="8241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initTravelInsurancePage()[pri:0, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:31 IST" name="initTravelInsurancePage" finished-at="2024-03-27T11:28:32 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTravelInsurancePage -->
+        <test-method signature="navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:32 IST" name="navigateToTravelInsurance" finished-at="2024-03-27T11:28:39 IST" duration-ms="7132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTravelInsurance -->
+        <test-method signature="searchWithoutSelectingCountry()[pri:2, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:39 IST" name="searchWithoutSelectingCountry" finished-at="2024-03-27T11:28:39 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutSelectingCountry -->
+        <test-method signature="validateSearchSuggestions(java.lang.String,java.lang.String)[pri:3, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:41 IST" name="validateSearchSuggestions" data-provider="searchResults" finished-at="2024-03-27T11:28:41 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameroon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchSuggestions -->
+        <test-method signature="validateCountrySelection()[pri:4, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:41 IST" name="validateCountrySelection" finished-at="2024-03-27T11:28:52 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="11465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountrySelection -->
+        <test-method signature="validateRemovingCountrySelection()[pri:5, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:28:53 IST" name="validateRemovingCountrySelection" finished-at="2024-03-27T11:29:03 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySelection" duration-ms="10597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRemovingCountrySelection -->
+        <test-method signature="validateCountrySearch()[pri:6, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:03 IST" name="validateCountrySearch" finished-at="2024-03-27T11:29:24 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="21001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountrySearch -->
+        <test-method signature="searchWithoutDateSelection()[pri:7, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:24 IST" name="searchWithoutDateSelection" finished-at="2024-03-27T11:29:25 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutDateSelection -->
+        <test-method signature="selectInvalidStartDate()[pri:8, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:25 IST" name="selectInvalidStartDate" finished-at="2024-03-27T11:29:25 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInvalidStartDate -->
+        <test-method signature="searchWithValidDates()[pri:9, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:25 IST" name="searchWithValidDates" finished-at="2024-03-27T11:29:38 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="12513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidDates -->
+        <test-method signature="validateTravellerNumberSelection()[pri:10, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:38 IST" name="validateTravellerNumberSelection" finished-at="2024-03-27T11:29:38 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidDates" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTravellerNumberSelection -->
+        <test-method signature="searchWithoutTravellerAge()[pri:11, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:38 IST" name="searchWithoutTravellerAge" finished-at="2024-03-27T11:29:38 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateTravellerNumberSelection" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutTravellerAge -->
+        <test-method signature="searchWithTravellersAge()[pri:12, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:39 IST" name="searchWithTravellersAge" finished-at="2024-03-27T11:29:50 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateTravellerNumberSelection" duration-ms="11590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithTravellersAge -->
+        <test-method signature="searchWithoutMedicalConditionDetail()[pri:13, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:50 IST" name="searchWithoutMedicalConditionDetail" finished-at="2024-03-27T11:29:50 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithTravellersAge" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutMedicalConditionDetail -->
+        <test-method signature="searchWithMedicalConditionDetail()[pri:14, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:51 IST" name="searchWithMedicalConditionDetail" finished-at="2024-03-27T11:29:51 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithTravellersAge" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithMedicalConditionDetail -->
+        <test-method signature="searchWithoutPhoneNumber()[pri:15, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:51 IST" name="searchWithoutPhoneNumber" finished-at="2024-03-27T11:29:51 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutPhoneNumber -->
+        <test-method signature="searchWithInvalidPhoneNumber()[pri:16, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:52 IST" name="searchWithInvalidPhoneNumber" finished-at="2024-03-27T11:29:52 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidPhoneNumber -->
+        <test-method signature="searchWithValidPhoneNumber()[pri:17, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:29:52 IST" name="searchWithValidPhoneNumber" finished-at="2024-03-27T11:30:03 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="10619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidPhoneNumber -->
+        <test-method signature="validateStudentFilterWithoutPlanDetail()[pri:18, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:30:03 IST" name="validateStudentFilterWithoutPlanDetail" finished-at="2024-03-27T11:30:04 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStudentFilterWithoutPlanDetail -->
+        <test-method signature="validatePlanTypeDetailsSubmission()[pri:19, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:30:04 IST" name="validatePlanTypeDetailsSubmission" finished-at="2024-03-27T11:30:05 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlanTypeDetailsSubmission -->
+        <test-method signature="validateSortingResults()[pri:20, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:30:05 IST" name="validateSortingResults" finished-at="2024-03-27T11:30:10 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortingResults -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.TravelInsuranceTests@353352b6]" started-at="2024-03-27T11:30:10 IST" name="teardown" finished-at="2024-03-27T11:30:15 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.TravelInsuranceTests -->
+      <class name="policybazaar.tests.CarInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:15 IST" name="createDriver" finished-at="2024-03-27T11:30:21 IST" duration-ms="5552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initCarInsurancePage()[pri:0, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:21 IST" name="initCarInsurancePage" finished-at="2024-03-27T11:30:21 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initCarInsurancePage -->
+        <test-method signature="navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:21 IST" name="navigateToCarInsurance" finished-at="2024-03-27T11:30:27 IST" duration-ms="6563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCarInsurance -->
+        <test-method signature="searchWithoutCarNumber()[pri:2, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:27 IST" name="searchWithoutCarNumber" finished-at="2024-03-27T11:30:28 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutCarNumber -->
+        <test-method signature="searchWithInvalidCarNumber()[pri:3, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:28 IST" name="searchWithInvalidCarNumber" finished-at="2024-03-27T11:30:28 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidCarNumber -->
+        <test-method signature="searchWithValidCarNumber()[pri:4, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:29 IST" name="searchWithValidCarNumber" finished-at="2024-03-27T11:30:39 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="10584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidCarNumber -->
+        <test-method signature="searchWithoutUserDetails()[pri:5, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:39 IST" name="searchWithoutUserDetails" finished-at="2024-03-27T11:30:40 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutUserDetails -->
+        <test-method signature="searchWithInvalidName()[pri:6, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:40 IST" name="searchWithInvalidName" finished-at="2024-03-27T11:30:42 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidName -->
+        <test-method signature="searchWithInvalidEmail()[pri:7, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:42 IST" name="searchWithInvalidEmail" finished-at="2024-03-27T11:30:43 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidEmail -->
+        <test-method signature="searchWithInvalidNumber()[pri:8, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:43 IST" name="searchWithInvalidNumber" finished-at="2024-03-27T11:30:44 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidNumber -->
+        <test-method signature="searchWithValidDetails()[pri:9, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:45 IST" name="searchWithValidDetails" finished-at="2024-03-27T11:30:56 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="10971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.CarInsuranceTests@cecf639]" started-at="2024-03-27T11:30:56 IST" name="teardown" finished-at="2024-03-27T11:31:00 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.CarInsuranceTests -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- PolicyBazaar Chrome Testsuite -->
+  <suite started-at="2024-03-27T11:31:46 IST" name="PolicyBazaar Chrome Testsuite (0)" finished-at="2024-03-27T11:34:37 IST" duration-ms="171021">
+    <groups>
+      <group name="regression">
+        <method signature="CarInsuranceTests.navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" name="navigateToCarInsurance" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="HealthInsuranceTests.validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" name="validateHeathInsuranceMenu" class="policybazaar.tests.HealthInsuranceTests"/>
+        <method signature="TravelInsuranceTests.navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="navigateToTravelInsurance" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="CarInsuranceTests.searchWithValidCarNumber()[pri:4, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" name="searchWithValidCarNumber" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateCountrySelection()[pri:4, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="validateCountrySelection" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateCountrySearch()[pri:6, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="validateCountrySearch" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="CarInsuranceTests.searchWithValidDetails()[pri:9, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" name="searchWithValidDetails" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithValidDates()[pri:9, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="searchWithValidDates" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.validateTravellerNumberSelection()[pri:10, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="validateTravellerNumberSelection" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithTravellersAge()[pri:12, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="searchWithTravellersAge" class="policybazaar.tests.TravelInsuranceTests"/>
+        <method signature="TravelInsuranceTests.searchWithMedicalConditionDetail()[pri:14, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="searchWithMedicalConditionDetail" class="policybazaar.tests.TravelInsuranceTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CarInsuranceTests.navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" name="navigateToCarInsurance" class="policybazaar.tests.CarInsuranceTests"/>
+        <method signature="HealthInsuranceTests.validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" name="validateHeathInsuranceMenu" class="policybazaar.tests.HealthInsuranceTests"/>
+        <method signature="TravelInsuranceTests.navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" name="navigateToTravelInsurance" class="policybazaar.tests.TravelInsuranceTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-27T11:31:46 IST" name="Edge Test" finished-at="2024-03-27T11:34:37 IST" duration-ms="171021">
+      <class name="policybazaar.tests.HealthInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" started-at="2024-03-27T11:34:21 IST" name="createDriver" finished-at="2024-03-27T11:34:27 IST" duration-ms="5479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initHealthInsurancePage()[pri:0, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" started-at="2024-03-27T11:34:27 IST" name="initHealthInsurancePage" finished-at="2024-03-27T11:34:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHealthInsurancePage -->
+        <test-method signature="validateHeathInsuranceMenu()[pri:1, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" started-at="2024-03-27T11:34:27 IST" name="validateHeathInsuranceMenu" finished-at="2024-03-27T11:34:33 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeathInsuranceMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.HealthInsuranceTests@52f27fbd]" started-at="2024-03-27T11:34:33 IST" name="teardown" finished-at="2024-03-27T11:34:37 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.HealthInsuranceTests -->
+      <class name="policybazaar.tests.TravelInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:31:46 IST" name="createDriver" finished-at="2024-03-27T11:31:52 IST" duration-ms="6717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initTravelInsurancePage()[pri:0, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:31:52 IST" name="initTravelInsurancePage" finished-at="2024-03-27T11:31:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTravelInsurancePage -->
+        <test-method signature="navigateToTravelInsurance()[pri:1, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:31:52 IST" name="navigateToTravelInsurance" finished-at="2024-03-27T11:32:00 IST" duration-ms="7487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTravelInsurance -->
+        <test-method signature="searchWithoutSelectingCountry()[pri:2, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:00 IST" name="searchWithoutSelectingCountry" finished-at="2024-03-27T11:32:00 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutSelectingCountry -->
+        <test-method signature="validateSearchSuggestions(java.lang.String,java.lang.String)[pri:3, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:02 IST" name="validateSearchSuggestions" data-provider="searchResults" finished-at="2024-03-27T11:32:02 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameroon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchSuggestions -->
+        <test-method signature="validateCountrySelection()[pri:4, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:02 IST" name="validateCountrySelection" finished-at="2024-03-27T11:32:14 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="11516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountrySelection -->
+        <test-method signature="validateRemovingCountrySelection()[pri:5, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:14 IST" name="validateRemovingCountrySelection" finished-at="2024-03-27T11:32:25 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySelection" duration-ms="10658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRemovingCountrySelection -->
+        <test-method signature="validateCountrySearch()[pri:6, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:25 IST" name="validateCountrySearch" finished-at="2024-03-27T11:32:46 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.navigateToTravelInsurance" duration-ms="20990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountrySearch -->
+        <test-method signature="searchWithoutDateSelection()[pri:7, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:46 IST" name="searchWithoutDateSelection" finished-at="2024-03-27T11:32:46 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutDateSelection -->
+        <test-method signature="selectInvalidStartDate()[pri:8, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:46 IST" name="selectInvalidStartDate" finished-at="2024-03-27T11:32:47 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInvalidStartDate -->
+        <test-method signature="searchWithValidDates()[pri:9, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:47 IST" name="searchWithValidDates" finished-at="2024-03-27T11:32:59 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateCountrySearch" duration-ms="12547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidDates -->
+        <test-method signature="validateTravellerNumberSelection()[pri:10, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:32:59 IST" name="validateTravellerNumberSelection" finished-at="2024-03-27T11:33:00 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidDates" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTravellerNumberSelection -->
+        <test-method signature="searchWithoutTravellerAge()[pri:11, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:00 IST" name="searchWithoutTravellerAge" finished-at="2024-03-27T11:33:00 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateTravellerNumberSelection" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutTravellerAge -->
+        <test-method signature="searchWithTravellersAge()[pri:12, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:00 IST" name="searchWithTravellersAge" finished-at="2024-03-27T11:33:11 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.validateTravellerNumberSelection" duration-ms="11581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithTravellersAge -->
+        <test-method signature="searchWithoutMedicalConditionDetail()[pri:13, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:11 IST" name="searchWithoutMedicalConditionDetail" finished-at="2024-03-27T11:33:12 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithTravellersAge" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutMedicalConditionDetail -->
+        <test-method signature="searchWithMedicalConditionDetail()[pri:14, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:12 IST" name="searchWithMedicalConditionDetail" finished-at="2024-03-27T11:33:12 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithTravellersAge" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithMedicalConditionDetail -->
+        <test-method signature="searchWithoutPhoneNumber()[pri:15, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:12 IST" name="searchWithoutPhoneNumber" finished-at="2024-03-27T11:33:13 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutPhoneNumber -->
+        <test-method signature="searchWithInvalidPhoneNumber()[pri:16, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:13 IST" name="searchWithInvalidPhoneNumber" finished-at="2024-03-27T11:33:13 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidPhoneNumber -->
+        <test-method signature="searchWithValidPhoneNumber()[pri:17, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:14 IST" name="searchWithValidPhoneNumber" finished-at="2024-03-27T11:33:24 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithMedicalConditionDetail" duration-ms="10579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidPhoneNumber -->
+        <test-method signature="validateStudentFilterWithoutPlanDetail()[pri:18, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:24 IST" name="validateStudentFilterWithoutPlanDetail" finished-at="2024-03-27T11:33:25 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStudentFilterWithoutPlanDetail -->
+        <test-method signature="validatePlanTypeDetailsSubmission()[pri:19, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:25 IST" name="validatePlanTypeDetailsSubmission" finished-at="2024-03-27T11:33:26 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlanTypeDetailsSubmission -->
+        <test-method signature="validateSortingResults()[pri:20, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:26 IST" name="validateSortingResults" finished-at="2024-03-27T11:33:30 IST" depends-on-methods="policybazaar.tests.TravelInsuranceTests.searchWithValidPhoneNumber" duration-ms="3593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortingResults -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.TravelInsuranceTests@28dcca0c]" started-at="2024-03-27T11:33:30 IST" name="teardown" finished-at="2024-03-27T11:33:36 IST" duration-ms="6777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.TravelInsuranceTests -->
+      <class name="policybazaar.tests.CarInsuranceTests">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:36 IST" name="createDriver" finished-at="2024-03-27T11:33:42 IST" duration-ms="5645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="initCarInsurancePage()[pri:0, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:42 IST" name="initCarInsurancePage" finished-at="2024-03-27T11:33:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initCarInsurancePage -->
+        <test-method signature="navigateToCarInsurance()[pri:1, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:42 IST" name="navigateToCarInsurance" finished-at="2024-03-27T11:33:49 IST" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCarInsurance -->
+        <test-method signature="searchWithoutCarNumber()[pri:2, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:49 IST" name="searchWithoutCarNumber" finished-at="2024-03-27T11:33:49 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutCarNumber -->
+        <test-method signature="searchWithInvalidCarNumber()[pri:3, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:49 IST" name="searchWithInvalidCarNumber" finished-at="2024-03-27T11:33:50 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidCarNumber -->
+        <test-method signature="searchWithValidCarNumber()[pri:4, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:33:50 IST" name="searchWithValidCarNumber" finished-at="2024-03-27T11:34:00 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.navigateToCarInsurance" duration-ms="10477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidCarNumber -->
+        <test-method signature="searchWithoutUserDetails()[pri:5, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:00 IST" name="searchWithoutUserDetails" finished-at="2024-03-27T11:34:01 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutUserDetails -->
+        <test-method signature="searchWithInvalidName()[pri:6, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:01 IST" name="searchWithInvalidName" finished-at="2024-03-27T11:34:02 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidName -->
+        <test-method signature="searchWithInvalidEmail()[pri:7, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:03 IST" name="searchWithInvalidEmail" finished-at="2024-03-27T11:34:04 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidEmail -->
+        <test-method signature="searchWithInvalidNumber()[pri:8, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:04 IST" name="searchWithInvalidNumber" finished-at="2024-03-27T11:34:05 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidNumber -->
+        <test-method signature="searchWithValidDetails()[pri:9, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:05 IST" name="searchWithValidDetails" finished-at="2024-03-27T11:34:16 IST" depends-on-methods="policybazaar.tests.CarInsuranceTests.searchWithValidCarNumber" duration-ms="11098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:policybazaar.tests.CarInsuranceTests@45d84a20]" started-at="2024-03-27T11:34:16 IST" name="teardown" finished-at="2024-03-27T11:34:21 IST" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- policybazaar.tests.CarInsuranceTests -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- PolicyBazaar Chrome Testsuite (0) -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PolicyBazaar Chrome Testsuite (0)]">
+  <parameter name="browser" value="Edge"/>
+  <listeners>
+    <listener class-name="policybazaar.utility.ExtentReportManager"/>
+    <listener class-name="policybazaar.utility.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Edge Test(failed)">
+    <classes>
+      <class name="policybazaar.tests.TravelInsuranceTests">
+        <methods>
+          <include name="searchWithoutPhoneNumber"/>
+          <include name="searchWithoutDateSelection"/>
+          <include name="navigateToTravelInsurance"/>
+          <include name="searchWithTravellersAge"/>
+          <include name="searchWithoutTravellerAge"/>
+          <include name="validateTravellerNumberSelection"/>
+          <include name="initTravelInsurancePage"/>
+          <include name="selectInvalidStartDate"/>
+          <include name="searchWithoutMedicalConditionDetail"/>
+          <include name="validateSortingResults"/>
+          <include name="validatePlanTypeDetailsSubmission"/>
+          <include name="searchWithValidDates"/>
+          <include name="createDriver"/>
+          <include name="searchWithValidPhoneNumber"/>
+          <include name="searchWithMedicalConditionDetail"/>
+          <include name="teardown"/>
+          <include name="validateStudentFilterWithoutPlanDetail"/>
+          <include name="searchWithInvalidPhoneNumber"/>
+          <include name="validateCountrySearch"/>
+        </methods>
+      </class> <!-- policybazaar.tests.TravelInsuranceTests -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+</suite> <!-- Failed suite [PolicyBazaar Chrome Testsuite (0)] -->
